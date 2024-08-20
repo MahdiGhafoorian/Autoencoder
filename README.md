@@ -8,6 +8,8 @@ This script implements a vanilla autoencoder using both a linear model and a CNN
 - Works with both linear and CNN models.
 - Trains and evaluates on the MNIST dataset.
 
+![MNIST Autoencoder](images/mnist_autoencoder.png)
+
 ### 2. `DeepAutoencodeCifar10.py`
 **Description**:  
 This script is another vanilla autoencoder designed to work with a CNN model on the CIFAR-10 dataset. It also includes functionality to visualize reconstruction errors.
@@ -16,3 +18,5 @@ This script is another vanilla autoencoder designed to work with a CNN model on 
 - Trains and evaluates using a CNN model on CIFAR-10 data.
 - Visualizes reconstruction errors.
 - Supports training and evaluation using pre-trained files with four different latent dimensions found in saved_models folder.
+
+![CIFAR-10 Autoencoder](images/cifar10_autoencoder.png)
